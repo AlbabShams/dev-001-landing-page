@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sec-one {
+    /* height: 80px; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 0 10%;
+}
+
+div .head {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+/* section two syling, the hero texts and related subtexts, sign-up button and an image placeholder. */
+
+.sec-two {
+    display: flex;
+    background-color: #1F2937;
+    padding: 0 10%;
+    height: 300px;
+}
+
+.button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: 70px;
+    color: white;
+}
+div h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.subtext {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.subtext p {
+    font-size: 18px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #E5E7EB;
+}
+
+.image {
+    margin-left: 45%;
+    position: relative;
+    margin-top: 3%;
+}
+
+.random-info {
+    /* border: 5px solid brown; */
+    text-align: center;
+}
+
+.image-container {
+    /* border: 5px solid green; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    align-items: center;
+    margin: auto;
+}
+
+.image-1 {
+    border-radius: 15px;
+}
+
+.sec-three {
+    height: 250px;
+}
+
+.sec-four {
+    background-color: #E5E7EB;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid brown; */
+    font-size: 36px;
+    width: 800px;
+    height: 350px;
+    margin: auto;
+    font-style: italic;
+    justify-content: center;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: 1000px;
+    display: flex;
+    justify-content: end;
+}
+
+
+.sec-five {
+    height: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.call-to-action {
+    display:flex;
+    background-color: #3882f6;
+    width: 50%;
+    margin: auto;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.button-2 {
+    border-radius: 6px;
+    width: 75px;
+    background-color: #3882f6;
+    border-color: #E5E7EB;
+    color: white;
+}
+
+.text-1 {
+    font-weight: 700;
+}
+
+.text > * {
+    color: #E5E7EB;
+}
